@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+body{
+   /* background-color: #151515;*/
+   background-image: url('bg.jpg');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+nav ul{ 
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:60px;
+    background-color: #1a3c2300;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+    font-size: 24px;
+}
+
+.brand img{
+    width: 58px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.9rem;
+}
+
+.container{
+    min-height: 64vh;
+    background-color:black;
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1401px 760px;
+    opacity: 0.7;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: rgba(35, 35, 35, 0);
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top:14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+.icons:hover{
+    color: rgb(214, 214, 214);
+}
+#myProgressBar{
+    width:80vw;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 108%;
+    font-weight: bolder;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:30px
+}
+
+
+.songItem img{
+    width: 89px;
+    border-radius:30px
+}
+
+.time{
+    margin: 0 23px;
+}
+
+.time i{
+    cursor:pointer;
+}
+.songItemContainer{
+    margin-top:30px;
+}
+
+.songinfo{
+    position: absolute;
+    left:10vw;
+}
+
+.songinfo img{
+    opacity:0;
+    transition: opacity 0.8s ease-in;
+}
